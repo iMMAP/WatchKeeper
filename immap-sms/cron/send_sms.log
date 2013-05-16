@@ -1,0 +1,51 @@
+[2013-02-26 10:48:23]function sendSMSAllGateways call
+
+[2013-02-26 10:48:23]Error1-> auth: Failed login. Username and password do not match.'
+[2013-02-26 10:51:09]function sendSMSAllGateways call
+
+[2013-02-26 10:53:10]function sendSMSAllGateways call
+
+[2013-02-26 10:53:53]function sendSMSAllGateways call
+
+[2013-02-26 10:55:04]function sendSMSAllGateways call
+
+[2013-02-26 10:55:55]function sendSMSAllGateways call
+
+[2013-02-26 10:57:05]function sendSMSAllGateways call
+
+[2013-02-26 10:57:18]function sendSMSAllGateways call
+
+[2013-02-26 11:00:07]function sendSMSAllGateways call
+
+[2013-02-26 11:00:07]Error1-> auth: '
+[2013-02-26 11:00:46]function sendSMSAllGateways call
+
+[2013-02-26 11:01:33]function sendSMSAllGateways call
+
+[2013-02-26 11:01:50]function sendSMSAllGateways call
+
+[2013-02-26 11:02:38]function sendSMSAllGateways call
+
+[2013-02-26 11:04:02]function sendSMSAllGateways call
+
+[2013-02-26 11:05:29]function sendSMSAllGateways call
+
+[2013-02-26 11:05:29]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+				values ('31','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10208389','w')
+[2013-02-26 11:05:29]UPDATE sms_outbound set status=1 where  id='31'
+[2013-02-26 11:05:30]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+				values ('39','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10208390','w')
+[2013-02-26 11:05:30]UPDATE sms_outbound set status=1 where  id='39'
+[2013-03-21 11:10:05]function sendSMSAllGateways call
+
+[2013-03-21 11:10:47]function sendSMSAllGateways call
+
+[2013-03-21 11:11:35]function sendSMSAllGateways call
+
+[2013-03-21 11:12:39]function sendSMSAllGateways call
+
+[2013-03-21 11:14:18]function sendSMSAllGateways call
+
+[2013-03-21 11:14:19]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+				values ('4','923335049649','Hi This is a performance testing message','2','0','2','20130321094901242523',2,NOW(),'10407484','w')
+[2013-03-21 11:14:19]UPDATE sms_outbound set status=1 where  id='4'

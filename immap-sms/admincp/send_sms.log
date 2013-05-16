@@ -1,0 +1,322 @@
+[2013-02-21 10:25:44]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:25:44]function sendSMSAllGateways call
+
+[2013-02-21 10:25:44]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('1','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154813','w')
+[2013-02-21 10:25:44]UPDATE sms_outbound set status=1 where  id='1'
+[2013-02-21 10:25:44]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:25:44]function sendSMSAllGateways call
+
+[2013-02-21 10:25:44]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('2','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154814','w')
+[2013-02-21 10:25:44]UPDATE sms_outbound set status=1 where  id='2'
+[2013-02-21 10:25:44]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:25:44]function sendSMSAllGateways call
+
+[2013-02-21 10:25:45]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('3','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154815','w')
+[2013-02-21 10:25:45]UPDATE sms_outbound set status=1 where  id='3'
+[2013-02-21 10:25:45]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:25:45]function sendSMSAllGateways call
+
+[2013-02-21 10:25:45]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('4','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154816','w')
+[2013-02-21 10:25:45]UPDATE sms_outbound set status=1 where  id='4'
+[2013-02-21 10:25:45]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:25:45]function sendSMSAllGateways call
+
+[2013-02-21 10:25:45]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('5','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154817','w')
+[2013-02-21 10:25:45]UPDATE sms_outbound set status=1 where  id='5'
+[2013-02-21 10:25:45]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:25:45]function sendSMSAllGateways call
+
+[2013-02-21 10:26:07]Error3->sendsms: '
+[2013-02-21 10:26:07]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:07]function sendSMSAllGateways call
+
+[2013-02-21 10:26:07]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('7','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154821','w')
+[2013-02-21 10:26:07]UPDATE sms_outbound set status=1 where  id='7'
+[2013-02-21 10:26:07]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:07]function sendSMSAllGateways call
+
+[2013-02-21 10:26:07]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('8','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154822','w')
+[2013-02-21 10:26:07]UPDATE sms_outbound set status=1 where  id='8'
+[2013-02-21 10:26:07]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:07]function sendSMSAllGateways call
+
+[2013-02-21 10:26:08]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('9','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154823','w')
+[2013-02-21 10:26:08]UPDATE sms_outbound set status=1 where  id='9'
+[2013-02-21 10:26:08]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:08]function sendSMSAllGateways call
+
+[2013-02-21 10:26:09]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('10','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154824','w')
+[2013-02-21 10:26:09]UPDATE sms_outbound set status=1 where  id='10'
+[2013-02-21 10:26:09]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:09]function sendSMSAllGateways call
+
+[2013-02-21 10:26:12]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('11','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154825','w')
+[2013-02-21 10:26:12]UPDATE sms_outbound set status=1 where  id='11'
+[2013-02-21 10:26:12]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:12]function sendSMSAllGateways call
+
+[2013-02-21 10:26:15]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('12','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154826','w')
+[2013-02-21 10:26:15]UPDATE sms_outbound set status=1 where  id='12'
+[2013-02-21 10:26:15]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:15]function sendSMSAllGateways call
+
+[2013-02-21 10:26:18]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('13','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154827','w')
+[2013-02-21 10:26:18]UPDATE sms_outbound set status=1 where  id='13'
+[2013-02-21 10:26:18]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:18]function sendSMSAllGateways call
+
+[2013-02-21 10:26:22]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('14','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154828','w')
+[2013-02-21 10:26:22]UPDATE sms_outbound set status=1 where  id='14'
+[2013-02-21 10:26:22]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:22]function sendSMSAllGateways call
+
+[2013-02-21 10:26:25]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('15','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154829','w')
+[2013-02-21 10:26:25]UPDATE sms_outbound set status=1 where  id='15'
+[2013-02-21 10:26:25]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:25]function sendSMSAllGateways call
+
+[2013-02-21 10:26:35]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('16','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154830','w')
+[2013-02-21 10:26:35]UPDATE sms_outbound set status=1 where  id='16'
+[2013-02-21 10:26:35]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:35]function sendSMSAllGateways call
+
+[2013-02-21 10:26:35]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('17','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154831','w')
+[2013-02-21 10:26:35]UPDATE sms_outbound set status=1 where  id='17'
+[2013-02-21 10:26:35]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:35]function sendSMSAllGateways call
+
+[2013-02-21 10:26:44]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('18','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154832','w')
+[2013-02-21 10:26:44]UPDATE sms_outbound set status=1 where  id='18'
+[2013-02-21 10:26:44]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:44]function sendSMSAllGateways call
+
+[2013-02-21 10:26:44]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('19','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154833','w')
+[2013-02-21 10:26:44]UPDATE sms_outbound set status=1 where  id='19'
+[2013-02-21 10:26:44]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:44]function sendSMSAllGateways call
+
+[2013-02-21 10:26:45]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('20','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154834','w')
+[2013-02-21 10:26:45]UPDATE sms_outbound set status=1 where  id='20'
+[2013-02-21 10:26:45]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:45]function sendSMSAllGateways call
+
+[2013-02-21 10:26:45]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('21','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154835','w')
+[2013-02-21 10:26:45]UPDATE sms_outbound set status=1 where  id='21'
+[2013-02-21 10:26:45]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:45]function sendSMSAllGateways call
+
+[2013-02-21 10:26:45]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('22','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154836','w')
+[2013-02-21 10:26:45]UPDATE sms_outbound set status=1 where  id='22'
+[2013-02-21 10:26:45]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:45]function sendSMSAllGateways call
+
+[2013-02-21 10:26:55]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('23','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154837','w')
+[2013-02-21 10:26:55]UPDATE sms_outbound set status=1 where  id='23'
+[2013-02-21 10:26:55]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:55]function sendSMSAllGateways call
+
+[2013-02-21 10:26:55]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('24','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154838','w')
+[2013-02-21 10:26:55]UPDATE sms_outbound set status=1 where  id='24'
+[2013-02-21 10:26:55]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:55]function sendSMSAllGateways call
+
+[2013-02-21 10:26:55]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('25','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154839','w')
+[2013-02-21 10:26:55]UPDATE sms_outbound set status=1 where  id='25'
+[2013-02-21 10:26:55]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:55]function sendSMSAllGateways call
+
+[2013-02-21 10:26:55]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('26','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154840','w')
+[2013-02-21 10:26:55]UPDATE sms_outbound set status=1 where  id='26'
+[2013-02-21 10:26:55]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:55]function sendSMSAllGateways call
+
+[2013-02-21 10:26:56]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('27','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154841','w')
+[2013-02-21 10:26:56]UPDATE sms_outbound set status=1 where  id='27'
+[2013-02-21 10:26:56]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:56]function sendSMSAllGateways call
+
+[2013-02-21 10:26:57]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('28','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154842','w')
+[2013-02-21 10:26:57]UPDATE sms_outbound set status=1 where  id='28'
+[2013-02-21 10:26:57]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:57]function sendSMSAllGateways call
+
+[2013-02-21 10:26:57]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('29','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154843','w')
+[2013-02-21 10:26:57]UPDATE sms_outbound set status=1 where  id='29'
+[2013-02-21 10:26:57]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:57]function sendSMSAllGateways call
+
+[2013-02-21 10:26:57]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('30','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154844','w')
+[2013-02-21 10:26:57]UPDATE sms_outbound set status=1 where  id='30'
+[2013-02-21 10:26:57]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:26:57]function sendSMSAllGateways call
+
+[2013-02-21 10:27:07]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('31','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154847','w')
+[2013-02-21 10:27:07]UPDATE sms_outbound set status=1 where  id='31'
+[2013-02-21 10:27:07]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:07]function sendSMSAllGateways call
+
+[2013-02-21 10:27:07]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('32','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154848','w')
+[2013-02-21 10:27:07]UPDATE sms_outbound set status=1 where  id='32'
+[2013-02-21 10:27:07]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:07]function sendSMSAllGateways call
+
+[2013-02-21 10:27:07]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('33','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154852','w')
+[2013-02-21 10:27:07]UPDATE sms_outbound set status=1 where  id='33'
+[2013-02-21 10:27:07]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:07]function sendSMSAllGateways call
+
+[2013-02-21 10:27:07]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('34','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154855','w')
+[2013-02-21 10:27:07]UPDATE sms_outbound set status=1 where  id='34'
+[2013-02-21 10:27:07]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:07]function sendSMSAllGateways call
+
+[2013-02-21 10:27:08]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('35','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154856','w')
+[2013-02-21 10:27:08]UPDATE sms_outbound set status=1 where  id='35'
+[2013-02-21 10:27:08]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:08]function sendSMSAllGateways call
+
+[2013-02-21 10:27:17]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('36','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154857','w')
+[2013-02-21 10:27:17]UPDATE sms_outbound set status=1 where  id='36'
+[2013-02-21 10:27:17]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:17]function sendSMSAllGateways call
+
+[2013-02-21 10:27:27]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('37','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154858','w')
+[2013-02-21 10:27:27]UPDATE sms_outbound set status=1 where  id='37'
+[2013-02-21 10:27:27]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:27]function sendSMSAllGateways call
+
+[2013-02-21 10:27:28]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('38','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154859','w')
+[2013-02-21 10:27:28]UPDATE sms_outbound set status=1 where  id='38'
+[2013-02-21 10:27:28]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:28]function sendSMSAllGateways call
+
+[2013-02-21 10:27:28]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('39','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154860','w')
+[2013-02-21 10:27:28]UPDATE sms_outbound set status=1 where  id='39'
+[2013-02-21 10:27:28]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:28]function sendSMSAllGateways call
+
+[2013-02-21 10:27:28]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('40','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154861','w')
+[2013-02-21 10:27:28]UPDATE sms_outbound set status=1 where  id='40'
+[2013-02-21 10:27:28]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:28]function sendSMSAllGateways call
+
+[2013-02-21 10:27:29]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('41','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154862','w')
+[2013-02-21 10:27:29]UPDATE sms_outbound set status=1 where  id='41'
+[2013-02-21 10:27:29]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:29]function sendSMSAllGateways call
+
+[2013-02-21 10:27:29]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('42','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154863','w')
+[2013-02-21 10:27:29]UPDATE sms_outbound set status=1 where  id='42'
+[2013-02-21 10:27:29]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:29]function sendSMSAllGateways call
+
+[2013-02-21 10:27:29]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('43','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154864','w')
+[2013-02-21 10:27:29]UPDATE sms_outbound set status=1 where  id='43'
+[2013-02-21 10:27:29]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:29]function sendSMSAllGateways call
+
+[2013-02-21 10:27:39]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('44','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154865','w')
+[2013-02-21 10:27:39]UPDATE sms_outbound set status=1 where  id='44'
+[2013-02-21 10:27:39]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:39]function sendSMSAllGateways call
+
+[2013-02-21 10:27:51]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('45','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154866','w')
+[2013-02-21 10:27:51]UPDATE sms_outbound set status=1 where  id='45'
+[2013-02-21 10:27:51]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:51]function sendSMSAllGateways call
+
+[2013-02-21 10:27:52]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('46','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154867','w')
+[2013-02-21 10:27:52]UPDATE sms_outbound set status=1 where  id='46'
+[2013-02-21 10:27:52]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:52]function sendSMSAllGateways call
+
+[2013-02-21 10:27:55]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('47','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154868','w')
+[2013-02-21 10:27:55]UPDATE sms_outbound set status=1 where  id='47'
+[2013-02-21 10:27:55]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:55]function sendSMSAllGateways call
+
+[2013-02-21 10:27:55]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('48','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154869','w')
+[2013-02-21 10:27:55]UPDATE sms_outbound set status=1 where  id='48'
+[2013-02-21 10:27:55]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:55]function sendSMSAllGateways call
+
+[2013-02-21 10:27:55]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('49','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154870','w')
+[2013-02-21 10:27:55]UPDATE sms_outbound set status=1 where  id='49'
+[2013-02-21 10:27:55]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-02-21 10:27:55]function sendSMSAllGateways call
+
+[2013-02-21 10:27:56]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('50','923335049649','checking errors','','','','20130221102543917694',2,NOW(),'10154871','w')
+[2013-02-21 10:27:56]UPDATE sms_outbound set status=1 where  id='50'
+[2013-03-21 9:49:01]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-03-21 9:49:01]function sendSMSAllGateways call
+
+[2013-03-21 9:49:02]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('4','923335049649','Hi This is a performance testing message','2','','2','20130321094901242523',2,NOW(),'10405542','w')
+[2013-03-21 9:49:02]UPDATE sms_outbound set status=1 where  id='4'
+[2013-03-21 9:51:56]CALLING SMS FUNCTION FOR  : 923013834405
+[2013-03-21 9:51:56]function sendSMSAllGateways call
+
+[2013-03-21 9:51:56]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('5','923013834405','hi, This is performance testing ','2','','3','20130321095155147400',2,NOW(),'10405552','w')
+[2013-03-21 9:51:56]UPDATE sms_outbound set status=1 where  id='5'
+[2013-03-21 9:55:21]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-03-21 9:55:21]function sendSMSAllGateways call
+
+[2013-03-21 9:55:22]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('6','923335049649','Performance test 1','2','','2','20130321095521724579',2,NOW(),'10405566','w')
+[2013-03-21 9:55:22]UPDATE sms_outbound set status=1 where  id='6'
+[2013-03-21 11:14:57]CALLING SMS FUNCTION FOR  : 923335049649
+[2013-03-21 11:14:57]function sendSMSAllGateways call
+
+[2013-03-21 11:14:57]SQL:INSERT INTO sms_inbound (ref_id,msisdn_to,message,group_id,subgroup_id,user_id,unique_id,status,date_time,msgId,type) 
+			values ('7','923335049649',' Hi This is a performance testing message 5','2','0','2','20130321111457746460',2,NOW(),'10407485','w')
+[2013-03-21 11:14:57]UPDATE sms_outbound set status=1 where  id='7'

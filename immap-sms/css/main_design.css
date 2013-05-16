@@ -1,0 +1,246 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/rm_back.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #31000a;
+}
+
+/*----------------------------- CONTAINER -----------------------------------*/
+.container{
+	height: 718px;
+	width: 1036px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/rm_room.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.iner_container{
+	height: 718px;
+	width: 1021px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+/*----------------------------- END CONTAINER -----------------------------------*/
+
+
+
+/*----------------------------- OBJECTS -----------------------------------*/
+
+
+.rm_img1{
+	position: absolute;
+	height: 112px;
+	width: 78px;
+	margin-top: 195px;
+	left: 316px;
+	top: -60px;
+}
+.rm_img2{
+	position: absolute;
+	height: 122px;
+	width: 93px;
+	margin-top: 195px;
+	left: 610px;
+	top: -54px;
+}
+.rm_mirror{
+	position: absolute;
+	height: 208px;
+	width: 132px;
+	top: 22px;
+	left: 120px;
+}
+
+.rm_shalf{
+	position: absolute;
+	height: 202px;
+	width: 208px;
+	left: 398px;
+	top: 136px;
+}
+.rm_clock{
+	height: 42px;
+	width: 35px;
+	position: absolute;
+	left: 494px;
+	top: 103px;
+}
+.rm_books{
+	height: 109px;
+	width: 175px;
+	position: absolute;
+	left: 411px;
+	top: 200px;
+}
+
+.rm_books1{
+	height: 50px;
+	width: 63px;
+	position: absolute;
+	left: 411px;
+	top: 206px;
+}
+.rm_books2{
+	height: 40px;
+	width: 112px;
+	position: absolute;
+	left: 478px;
+	top: 230px;
+}
+.rm_books3{
+	height: 41px;
+	width: 112px;
+	position: absolute;
+	left: 474px;
+	top: 183px;
+}
+
+
+.rm_shoes{
+	height: 34px;
+	width: 48px;
+	position: absolute;
+	left: 419px;
+	top: 296px;
+}
+.rm_boll_1{
+	height: 32px;
+	width: 39px;
+	position: absolute;
+	left: 491px;
+	top: 301px;
+}
+.rm_boll_2{
+	height: 32px;
+	width: 48px;
+	position: absolute;
+	left: 541px;
+	top: 304px;
+}
+
+.rm_mobile{
+	height: 32px;
+	width: 94px;
+	position: absolute;
+	left: 486px;
+	top: 274px;
+}
+.rm_pencial{
+	height: 20px;
+	width: 50px;
+	position: absolute;
+	left: 419px;
+	top: 177px;
+}
+.rm_calender{
+	height: 111px;
+	width: 92px;
+	position: absolute;
+	top: 90px;
+	left: 20px;
+}
+.rm_sofa{
+	height: 153px;
+	width: 332px;
+	position: absolute;
+	left: 126px;
+	top: 340px;
+}
+.rm_plant{
+	height: 156px;
+	width: 115px;
+	position: absolute;
+	left: 30px;
+	top: 300px;
+}
+.rm_door{
+	height: 254px;
+	width: 153px;
+	position: absolute;
+	left: 770px;
+	top: 95px;
+}
+.rm_bed{
+	height: 202px;
+	width: 339px;
+	position: absolute;
+	left: 681px;
+	top: 390px;
+}
+.rm_bed{
+	height: 202px;
+	width: 339px;
+	position: absolute;
+	left: 682px;
+	top: 320px;
+}
+.rm_chair{
+	height: 213px;
+	width: 128px;
+	position: absolute;
+	left: 510px;
+	top: 350px;
+}
+.rm_desk{
+	height: 227px;
+	width: 403px;
+	position: absolute;
+	left: 374px;
+	top: 460px;
+}
+.rm_new_paper{
+	height: 43px;
+	width: 98px;
+	position: absolute;
+	left: 441px;
+	top: 470px;
+}
+.rm_new_vilot{
+	height: 40px;
+	width: 39px;
+	position: absolute;
+	left: 560px;
+	top: 479px;
+}
+.rm_glasses{
+	height: 23px;
+	width: 39px;
+	position: absolute;
+	left: 622px;
+	top: 498px;
+}
+.rm_mask{
+	height: 41px;
+	width: 45px;
+	position: absolute;
+	left: 690px;
+	top: 501px;
+}
+/*----------------------------- END OBJECTS -----------------------------------*/
+.small_txt{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+
+color: #000000;
+text-decoration: none;
+}
+.small_txt_head{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight:bold;
+color: #BD022F;
+text-decoration: none;
+}
+.small_txt_head1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight:bold;
+color: #BD022F;
+text-decoration: none;
+width:270px;
+padding-bottom:5px;
+}
