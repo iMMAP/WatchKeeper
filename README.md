@@ -45,7 +45,7 @@ Get the code
 Set your postgis server connection string here
 
     sudo vi /var/www/watchkeeper/sec/sec-m/conf.php
-    sudo vi /var/www/watchkeeper/sec/sec-m/conf.php
+    sudo vi /var/www/watchkeeper/immap-sms/includes/config.php
 
 Restart apache
 
