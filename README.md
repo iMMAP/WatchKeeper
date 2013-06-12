@@ -40,8 +40,12 @@ Get the code
     sudo apt-get install git
     sudo git clone https://github.com/iMMAP/Watchkeeper.git
 
-Application Configuration
+<b>------ CONFIGURATION ------</b>   
 
+Set your postgis server connection string here
+
+    sudo vi /var/www/watchkeeper/sec/sec-m/conf.php
+    sudo vi /var/www/watchkeeper/sec/sec-m/conf.php
 
 Restart apache
 
