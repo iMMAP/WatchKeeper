@@ -46,6 +46,30 @@ Set your postgis server connection string here
 
     sudo vi /var/www/watchkeeper/sec/sec-m/conf.php
     sudo vi /var/www/watchkeeper/immap-sms/includes/config.php
+    
+<b>------ Cron Job / Task Scheduler ------</b>
+
+Install Cron Job
+
+    sudo apt-get install cron
+    
+List Current Schedule
+
+    sudo crontab -l
+    
+Edit Cron Job
+    
+    sudo crontab -e
+
+Set hourly job
+
+    * * * * * php /var/www/watchkeeper/immap-sms/cron/chk_sms.php
+    * * * * * php /var/www/watchkeeper/immap-sms/cron/chk_status.php
+    
+Set dayli job every 16.00 server time Mon - Sun
+
+    0 16 * * 1-7 php /var/www/watchkeeper/sec-m/php/automail.php
+    
 
 Restart apache
 
