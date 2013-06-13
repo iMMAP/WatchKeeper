@@ -47,6 +47,10 @@ Set your postgis server connection string here
     sudo vi /var/www/watchkeeper/sec/sec-m/conf.php
     sudo vi /var/www/watchkeeper/immap-sms/includes/config.php
     
+Configure the GSM SMS Package
+
+    sudo vi /var/www/watchkeeper/immap-sms/cron/cron-functions.php
+    
 <b>------ Cron Job / Task Scheduler ------</b>
 
 Install Cron Job
@@ -75,4 +79,4 @@ Restart apache
 
     sudo service apache2 restart
     
-  
+    
