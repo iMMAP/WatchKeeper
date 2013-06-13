@@ -3,7 +3,7 @@ Watchkeeper
 
 <b>------ ASSUMPTIONS ------</b>
 - you are installing on ubuntu server LTS 12.04
-- postgresql and/or mssql databases reside independently of this config
+- postgresql 
 - system tables for the app are setup on the postgressql instance (more to come on this)
 
 <b>------ iNSTALLATION ------</b>         
