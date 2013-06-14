@@ -38,18 +38,18 @@ Get the code
 
     cd /var/www
     sudo apt-get install git
-    sudo git clone https://github.com/iMMAP/Watchkeeper.git
+    sudo git clone https://github.com/iMMAP/WatchKeeper.git
 
 <b>------ CONFIGURATION ------</b>   
 
 Set your postgis server connection string here
 
-    sudo vi /var/www/watchkeeper/sec/sec-m/conf.php
-    sudo vi /var/www/watchkeeper/immap-sms/includes/config.php
+    sudo vi /var/www/WatchKeeper/sec/sec-m/conf.php
+    sudo vi /var/www/WatchKeeper/immap-sms/includes/config.php
     
 Configure the GSM SMS Package
 
-    sudo vi /var/www/watchkeeper/immap-sms/cron/cron-functions.php
+    sudo vi /var/www/WatchKeeper/immap-sms/cron/cron-functions.php
     
 <b>------ Cron Job / Task Scheduler ------</b>
 
@@ -67,12 +67,12 @@ Edit Cron Job
 
 Set hourly job
 
-    * * * * * php /var/www/watchkeeper/immap-sms/cron/chk_sms.php
-    * * * * * php /var/www/watchkeeper/immap-sms/cron/chk_status.php
+    * * * * * php /var/www/WatchKeeper/immap-sms/cron/chk_sms.php
+    * * * * * php /var/www/WatchKeeper/immap-sms/cron/chk_status.php
     
 Set dayli job every 16.00 server time Mon - Sun
 
-    0 16 * * 1-7 php /var/www/watchkeeper/sec-m/php/automail.php
+    0 16 * * 1-7 php /var/www/WatchKeeper/sec-m/php/automail.php
     
 
 Restart apache
