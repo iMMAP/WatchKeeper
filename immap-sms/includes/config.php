@@ -4,7 +4,7 @@ ob_start();
 if($_SERVER['HTTP_HOST']=="localhost")
 {
 
-$connstr = "hhost=HOST port=PORT dbname=DBNAME user=postgres password=PASS";
+$connstr = "host=HOST port=PORT dbname=DBNAME user=postgres password=PASS";
 define("CONNSTR",$connstr);
 define('FULL_PATH',"http://localhost:8585/immap-sms/");
 //echo "OK";
