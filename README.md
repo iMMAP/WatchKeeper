@@ -44,7 +44,7 @@ Get the code
 
 Set your postgis server connection string here
 
-    sudo vi /var/www/WatchKeeper/sec/sec-m/conf.php
+    sudo vi /var/www/WatchKeeper/sec/sec-m/dbconnect.php
     sudo vi /var/www/WatchKeeper/immap-sms/includes/config.php
     
 Configure the GSM SMS Package
