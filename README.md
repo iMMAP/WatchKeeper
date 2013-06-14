@@ -3,7 +3,7 @@ Watchkeeper
 
 <b>------ ASSUMPTIONS ------</b>
 - you are installing on ubuntu server LTS 12.04
-- postgresql 
+- postgresql is setup with postgis extension for database 'securitynews'
 
 <b>------ DATABASE SETUP -------</b>
 
