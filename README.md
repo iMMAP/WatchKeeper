@@ -4,7 +4,12 @@ Watchkeeper
 <b>------ ASSUMPTIONS ------</b>
 - you are installing on ubuntu server LTS 12.04
 - postgresql 
-- system tables for the app are setup on the postgressql instance (more to come on this)
+
+<b>------ DATABASE SETUP -------</b>
+
+See here: 
+
+    https://github.com/iMMAP/WatchKeeper/blob/master/database_setup.sql
 
 <b>------ iNSTALLATION ------</b>         
 
