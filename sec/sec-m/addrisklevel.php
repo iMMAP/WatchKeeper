@@ -34,7 +34,7 @@ if ($id!=''){
 			</fieldset>
 			<?php
 		        // include 'dbconnect.php';
-		        $query = "select code, name from countries where code in ('PAK','IRQ')";
+		        $query = "select code, name from countries where code in ('SYR')";
 				$res=pg_query($db, $query);
 		    ?>
 		    <fieldset data-role="fieldcontain"> 
