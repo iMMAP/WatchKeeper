@@ -22,8 +22,9 @@ function htmlallentities($str){
 <br/>
 <!------ Start of panel Group --->
 <div id="panelkiri">
-	<div id="flagmenu"><a class="pakistanLink" href='index.php?m=content&contry=PAK'></a>PAK</div>
-	<div id="flagmenu"><a class="iraqLink" href='index.php?m=content&contry=IRQ'></a>IRQ</div>
+	<div id="flagmenu"><a class="syriaLink" href='index.php?m=content&contry=SYR'></a>SYR</div>
+	<!-- <div id="flagmenu"><a class="pakistanLink" href='index.php?m=content&contry=PAK'></a>PAK</div>
+	<div id="flagmenu"><a class="iraqLink" href='index.php?m=content&contry=IRQ'></a>IRQ</div> -->
 </div>	
 	
 	
