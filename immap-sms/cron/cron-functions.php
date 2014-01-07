@@ -150,8 +150,8 @@ function sendTop6($ref_id, $msisdn,$message,$user_id,$group_id,$subgroup_id ="",
 	SMSLogging( "function sendSMSAllGateways call\n" );
 	
 		
-	$user = "xxxxxxxxxxx"; // package cell
-	$password = "xxxx";
+	$user = "923452003139"; // package cell
+	$password = "7277";
 	
 	$baseurl ="http://203.215.160.179:8083/corporate_sms2/api";
 	$xmlsms = "";
@@ -274,8 +274,8 @@ function sendSMSAllGateways($dbObj)
 	SMSLogging( "function sendSMSAllGateways call\n" );
 	
 	
-	$user = "xxxxxxxxxxx"; // package cell
-	$password = "xxxx";
+	$user = "923452003139"; // package cell
+	$password = "7277";
 	
 	$baseurl ="http://203.215.160.179:8083/corporate_sms2/api";
 	$xmlsms = "";

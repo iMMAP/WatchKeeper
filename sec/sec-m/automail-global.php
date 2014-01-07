@@ -209,7 +209,7 @@ $smtpinfo["password"] = "secure1234567890";
 // zohaibfazal@immap.org,
 // ZuRahman@usaid.gov,rhoornveld@immap.org,gshafi@usaid.gov,APervaiz@usaid.gov,jdonahue@immap.org";
 
-	$to      = "bhermansyah@immap.org,rhoornveld@immap.org,jdonahue@immap.org,cvonhagen@immap.org"; 
+	$to      = "bhermansyah@immap.org,rhoornveld@immap.org,jdonahue@immap.org,cvonhagen@immap.org,cconley@immap.org,wbarron@immap.org,taziz@immap.org"; 
 	// $to      = "bhermansyah@immap.org";
 	
 	$headers = array (

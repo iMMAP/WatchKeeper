@@ -1,5 +1,9 @@
 <?php
 include '../sec-m/dbconnect.php';
+session_start(); // must be before any output
+	if (!isset($_SESSION['participantusername'])) 
+		header("Location: login.php");
+	
 $db = getDB();
 ?>
 
@@ -13,7 +17,6 @@ $db = getDB();
     <link rel="stylesheet" href="website.css" type="text/css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     
-
     
     
     <script type="text/javascript" src="scripts/gettheme.js"></script>
@@ -28,6 +31,7 @@ $db = getDB();
     <script type="text/javascript" src="jqwidgets/jqxtooltip.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxlistmenu.js"></script>
     <script type="text/javascript" src="jquery.tinycarousel.min.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxtabs.js"></script>
     <script type="text/javascript" src="scripts/jquery.bpopup-0.9.0.min.js"></script>
 	
     
@@ -36,7 +40,8 @@ $db = getDB();
 	<link rel="stylesheet" href="flags.css" />
 	<script type="text/javascript" src="jquery.checkbox.min.js"></script>
 
-	
+	<script src="http://maps.google.com/maps/api/js?sensor=false&language=en" type="text/javascript"></script>
+	<script type="text/javascript" src="gmap3.js"></script>
 	<link href="styles.css" rel="stylesheet" type="text/css" />
 	
     <script type="text/javascript">
@@ -68,6 +73,7 @@ $db = getDB();
             </ul>
       </div>
    </div>
+   <div class="logout"><a href="logout.php">Logout</a> | <a href="#">Change Password</a></div>
   </div>
     </div>
 <div class="ceRSS"> </div>
@@ -105,16 +111,6 @@ $db = getDB();
 <div class="footercontainer">
   <div class="newsscrollerouter">
     <!-- <div style="margin:0 auto; width:1000px"> </div> -->
-    <div class="newsupdates">
-      <div id="slider1"> 
-      	<a class="buttons prev" href="#">left</a> <img style="float:left;position:relative; top : 10px"" src="images/ourclient.png" width="150" height="50" />
-        <div class="viewport">
-          <ul class="overview">
-            <?php //include 'getYahooPipeJson.php';?>
-          </ul>
-        </div>
-        <a class="buttons next" href="#">right</a></div>
-    </div>
   </div>
   <div class="cecopyrights">
     <div class="copyrightinner">FOR INTERNAL iMMAP USE ONLY</div>

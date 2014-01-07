@@ -54,7 +54,7 @@ if (($id!='') && ($flg!='map')){
 			</fieldset>
 		    <?php
 		        // include 'dbconnect.php';
-		        $query = "select code, name from countries where code in ('SYR')";
+		        $query = "select code, name from countries where code in ('PAK','IRQ','AFG','YEM','JOR','TUR','GEO','MLI','COL')";
 				$res=pg_query($db, $query);
 		    ?>
 		    <fieldset data-role="fieldcontain"> 

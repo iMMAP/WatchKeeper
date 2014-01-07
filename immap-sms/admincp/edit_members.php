@@ -58,6 +58,7 @@ if($id !="")
 		$cell = !empty($row->cell)?$row->cell:"";
 		$email = !empty($row->email)?$row->email:"";
 		$country = !empty($row->country_id)?$row->country_id:"";
+		$password = !empty($row->password)?$row->password:"";
 		
 	}
    else
@@ -167,7 +168,12 @@ if($id !="")
 			<input type="text" name="email" id="email" class="sign_inp" value="<?php echo $email;?>" />          
            </span></td>
         </tr>
-		
+		 <tr>
+          <td width="166" class="tb_h3" >Password:</td>
+          <td width="673" ><span class="tb_h3">
+			<?php echo $password;?>        
+           </span></td>
+        </tr>
         <tr>
           <td height="17">&nbsp;</td>
           <td class="tb_h3" >&nbsp;</td>

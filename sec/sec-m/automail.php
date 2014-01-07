@@ -53,7 +53,7 @@ $body    .= "<h2>
             <td>
                 <div>
                     <H2 style = \"font-family: trebuchet MS; font-size: 14pt; color : #953735; font-weight:bold;\">
-                        <strong>iMMAP DSR SYRIA - </strong>
+                        <strong>iMMAP DSR PAKISTAN - </strong>
                         ".date("d")." ".date("M")." ".date("Y")."<strong></strong>
                     </H2>
                 </div>
@@ -80,7 +80,7 @@ $body    .= "<H2 style = \"font-family: trebuchet MS; font-size: 12pt; color : #
             </td>
         </tr>";
 		
-		$qry_risk = "select * from risklevelmovestate where country = 'SYR'";
+		$qry_risk = "select * from risklevelmovestate where country = 'PAK'";
 		$resRisk = pg_query($db, $qry_risk);
 		while ($rowRisk = pg_fetch_array($resRisk)){
 			$body    .= " <tr>
@@ -101,10 +101,10 @@ $body    .= "<H2 style = \"font-family: trebuchet MS; font-size: 12pt; color : #
 $qry_alert = "select i.id,i.date, i.time, i.country, c.name, i.location, i.desc 
 from \"incidentEvents\" i
 inner join countries c on i.country=c.code
-where i.country = 'SYR' and ((date::date = now()::date-1 and time::time >= '16:00'::time) or (date::date = now()::date and time::time < '16:00'::time))
+where i.country = 'PAK' and ((date::date = now()::date-1 and time::time >= '16:00'::time) or (date::date = now()::date and time::time < '16:00'::time))
 order by date desc, time desc";
 
-$qry_advise = "select * from security_advise where country = 'SYR' order by date desc";
+$qry_advise = "select * from security_advise where country = 'PAK' order by date desc";
 $resAdvise = pg_query($db, $qry_advise);
 
 $body    .= "<h2  style = \"font-family: trebuchet MS; font-size: 12pt; color : #953735; font-weight:bold; margin-bottom:0px;\">

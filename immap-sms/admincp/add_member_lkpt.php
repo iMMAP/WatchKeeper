@@ -20,7 +20,20 @@ if(isset($_POST["organization"]) and isset($_POST["cell"]))
 				$fname = isset($_POST["fname"])?$_POST["fname"]:"";
 				$cell = isset($_POST["cell"])?$_POST["cell"]:"";
 				$email = isset($_POST["email"])?$_POST["email"]:"";
+				$password = isset($_POST["password"])?$_POST["password"]:"";
 				$country = isset($_POST["country"])?$_POST["country"]:"";
+				
+				$characters = '0123456789abcdefghijklmnopqrstuvwxyz';
+				$randomString = '';
+				
+				for ($i = 0; $i < 6; $i++) {
+					$randomString .= $characters[rand(0, strlen($characters) - 1)];
+				}
+				
+				
+				
+				
+				
 				
 				$date = date("Y-m-d");
 				
@@ -29,6 +42,7 @@ if(isset($_POST["organization"]) and isset($_POST["cell"]))
 						    "fname" => $fname,
 							"cell" => $cell,
 							"email" => $email,
+							"password" => $randomString,
 							"country_id" => $country,
 							"date_time" => $date,
 							"status" => 1
@@ -37,9 +51,33 @@ if(isset($_POST["organization"]) and isset($_POST["cell"]))
 				
 			 $ins_id = $admin->Insert("sms_user", $arrValue);
 			if($ins_id)
+			{	
+				
+				$to  = $email ;
+				$subject = "WatchKeeper";
+				$message = "Dear ".$fname.",<br /><br />
+				Your user name is: ".$email."<br /><br />
+Your password is: ".$randomString."<br /><br />
+	You can change your password once you have logged in and you can also reset your password if you have forgotten it.<br /><br />	
+Best Regards,<br /><br />
+WatchKeeper";
+				
+				
+					
+				$headers  = "MIME-Version: 1.0\r\n";
+				$headers .= "From: WatchKeeper <noreply@immap.org>\r\n";
+				
+				$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+					
+				mail($to, $subject, $message, $headers);
+				
 				 header("Location:members.php?msg=".base64_encode(1)); 
-			else
-			   $msg =   $admin->display_msg('Error while adding member!',false);
+			}
+			else {
+				
+				 $msg =   $admin->display_msg('Error while adding member!',false);
+			}
+			  
 		
 			// showing the msg of the query
 			$msg = $admin->show_msg($val);
@@ -154,6 +192,7 @@ if(isset($_POST["organization"]) and isset($_POST["cell"]))
 			<input type="text" name="email" id="email" class="sign_inp" value="<?php echo $email;?>" />          
            </span></td>
         </tr>
+         
 		
         <tr>
           <td height="17">&nbsp;</td>

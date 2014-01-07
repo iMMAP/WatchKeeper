@@ -99,7 +99,7 @@ $resRisk = pg_query($db, $qry_risk);
 		// inner join countries c on i.country=c.code
 		// where i.country='".$_REQUEST['contry']."' and ((date::date = now()::date-1 and time::time >= '16:00'::time) or (date::date = now()::date)) 
 		// order by date desc, time desc";
-		$qry_alert = "select i.id,i.date, i.time, i.country, c.name, i.location, i.desc, i.incidenttype 
+		$qry_alert = "select i.id,i.date, i.time, i.country, c.name, i.location, i.desc, i.incidenttype, code1 
 		from \"incidentEvents\" i
 		inner join countries c on i.country=c.code
 		where i.country='".$_REQUEST['contry']."' and to_timestamp(i.date || ' '|| i.time, 'YYYY-MM-DD HH24:MI:SS') >= (now() - interval '24 hour') 
@@ -116,7 +116,7 @@ $resRisk = pg_query($db, $qry_risk);
 			            // <td>".$rowAlert['location'].", ".$date->format('d-m-Y')." ".$rowAlert['time']."</td>
 			            // <td>".$rowAlert['desc']."</td>
 			        // </tr>";
-			        echo "<img height=15px src='images/".$rowAlert['incidenttype'].".png'> <b>".$rowAlert['location'].", ".$date->format('d-m-Y')." ".$rowAlert['time']."</b><br/>".$rowAlert['desc']."<br/><br/>";
+			        echo "<div class=\"flag ".strtolower($rowAlert['code1'])."\" ></div><img height=15px src='images/".$rowAlert['incidenttype'].".png'> <b>".$rowAlert['location'].", ".$date->format('d-m-Y')." ".$rowAlert['time']."</b><br/>".$rowAlert['desc']."<br/><br/>";
 				}
 		?>	
 		</div>	
@@ -141,8 +141,8 @@ $resRisk = pg_query($db, $qry_risk);
     	// Create jqxPanel
         var theme = getDemoTheme();
         
-        $("#jqxWidget1").jqxPanel({ width: 350, height: 110, theme: theme });
-        $("#jqxWidget2").jqxPanel({ width: 350, height: 250, theme: theme });
+        $("#jqxWidget1").jqxPanel({ width: 465, height: 110, theme: theme });
+        $("#jqxWidget2").jqxPanel({ width: 465, height: 250, theme: theme });
         $("#jqxWidget3").jqxPanel({ width: 625, height: 380, theme: theme });
 <?php
 $body = "";

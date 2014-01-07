@@ -26,7 +26,7 @@
 			<div class=""><select style="width: 90%" name="countries" id="countries"> 
 			<?php
 		        // include 'dbconnect.php';
-		        $query = "select code, name from countries where code in ('PAK','IRQ')";
+		        $query = "select code, name from countries where code in ('PAK','IRQ','AFG','YEM','JOR','TUR','GEO','MLI','COL')";
 				$res=pg_query($db, $query);
 		    ?>
 		    <?php

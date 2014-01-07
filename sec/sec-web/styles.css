@@ -30,7 +30,7 @@ h3 {
     box-shadow: 0 1px 10px 5px #222222;
 }
 .innerheader {
-	width: 1000px;
+	width: 1100px;
 	margin: 0 auto;
 	height: 97px;
 }
@@ -54,6 +54,38 @@ h3 {
 	height: 50px;
 	margin: 7px 0px 0px 0px;
 }
+
+.logout {
+	float: right;
+	width: 430px;
+	height: 50px;
+	/*margin: 7px 0px 0px 0px;*/
+	text-align: right;
+	color: #FFFFFF;
+    font-family: "Gill Sans MT","Trebuchet MS","Verdana";
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.logout a {
+	color: #FFFFFF;
+    font-family: "Gill Sans MT","Trebuchet MS","Verdana";
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.logout a:hover {
+	color: #8A1F11;
+    font-family: "Gill Sans MT","Trebuchet MS","Verdana";
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: none;
+}
+
 .jqsection1 {
 	width: 325px;
 	height: 85px;
@@ -293,7 +325,7 @@ h3 {
 	background-image: url(images/BackgroundPattern.png)*/
 }
 .contentbox {
-	width: 980px;
+	width: 1100px;
 	margin: 0 auto;
 	font-family: "Gill Sans MT","Trebuchet MS","Verdana";	
 	color: #000;
@@ -511,6 +543,15 @@ h3 {
 	/*right: 0px;*/
 	/*top : -10px;*/
 }
+
+#jqxtabs{
+	/*float: left;*/
+	position: relative;
+	right: -17px;
+	/*top : -10px;*/
+	 box-shadow: 5px 5px 5px #888888;
+}
+
 #jqxWidget3{
 	/*float: left;*/
 	position: relative;
@@ -531,7 +572,11 @@ h3 {
 	/*position: relative;*/
 	/*top : -10px;*/
 }
-
+#map{
+    width: 538px;
+    height: 338px;
+    background: #000000;
+}
 
 #popup2 iframe {
 	position:absolute;
@@ -657,7 +702,7 @@ p > a, #downloadLink {
 }
 
 .innerTableCustom a{
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-family: "Gill Sans MT","Trebuchet MS","Verdana";	
 }
 
@@ -739,145 +784,24 @@ p > a, #downloadLink {
 	padding-right: 0px;
 }
 
-#flagmenu ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-#flagmenu li {
-	margin: 0;
-	padding: 0;
-}
+
 #flagmenu a {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	float: left;
 }
-#flagmenu > ul > li {
+
+#flagmenu span {
+	/*display: inline-block;*/
 	float: right;
-	margin-left: 15px;
-	position: relative;
+	margin-top: 10px;
 }
-
-#flagmenu > ul > li > a {
-	color: #FFF;
-	font-family: "Gill Sans MT","Trebuchet MS","Verdana";	
-	font-size: 15px;
-	line-height: 50px;
-	padding: 5px 9px;
-	-webkit-transition: color .15s;
-	-moz-transition: color .15s;
-	-o-transition: color .15s;
-	transition: color .15s;
-	font-weight: bold;
-}
-#flagmenu > ul > li > a:hover {
-	color: #FF5E4D;
-}
-#flagmenu > ul > li > ul {
-	opacity: 0;
-	visibility: hidden;
-	padding: 16px 0 20px 0;
-	background-color: rgb(250,250,250);
-	text-align: left;
-	position: absolute;
-	top: 55px;
-	left: 50%;
-	margin-left: -90px;
-	width: 180px;
-	-webkit-transition: all .3s .1s;
-	-moz-transition: all .3s .1s;
-	-o-transition: all .3s .1s;
-	transition: all .3s .1s;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-	box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-	z-index: 1000;
-}
-#flagmenu > ul > li:hover > ul {
-	opacity: 1;
-	top: 65px;
-	visibility: visible;
-}
-#flagmenu > ul > li > ul:before {
-	content: '';
-	display: block;
-	border-color: transparent transparent rgb(250,250,250) transparent;
-	border-style: solid;
-	border-width: 10px;
-	position: absolute;
-	top: -20px;
-	left: 50%;
-	margin-left: -10px;
-}
-#flagmenu > ul ul > li {
-	position: relative;
-}
-#flagmenu ul ul a {
-	color: rgb(50,50,50);
-	font-family: "Gill Sans MT","Trebuchet MS","Verdana";	
-	font-size: 13px;
-	background-color: rgb(250,250,250);
-	padding: 5px 8px 7px 16px;
-	display: block;
-	-webkit-transition: background-color .1s;
-	-moz-transition: background-color .1s;
-	-o-transition: background-color .1s;
-	transition: background-color .1s;
-}
-#flagmenu ul ul a:hover {
-	background-color: rgb(240,240,240);
-}
-#flagmenu ul ul ul {
-	visibility: hidden;
-	opacity: 0;
-	position: absolute;
-	top: -16px;
-	left: 206px;
-	padding: 16px 0 20px 0;
-	background-color: rgb(250,250,250);
-	text-align: left;
-	width: 160px;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-	box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-}
-#flagmenu ul ul > li:hover > ul {
-	opacity: 1;
-	left: 196px;
-	visibility: visible;
-}
-#flagmenu ul ul a:hover {
-	background-color: rgb(205,44,36);
-	color: rgb(240,240,240);
-}
-
-.syriaLink {
-	display: block;
-	width: 50px;
-	height: 50px;
-	background: url('images/syria.png') bottom no-repeat;
-	text-indent: -99999px;
-}
-.syriaLink:hover {
-	background-position: 0 0;
-}
-
 
 .pakistanLink {
 	display: block;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	background: url('images/Pakistan-Flag-icon.png') bottom no-repeat;
 	text-indent: -99999px;
 }
@@ -887,8 +811,8 @@ p > a, #downloadLink {
 
 .iraqLink {
 	display: block;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	background: url('images/Iraq-Flag-icon.png') bottom no-repeat;
 	text-indent: -99999px;
 }
@@ -896,8 +820,82 @@ p > a, #downloadLink {
 	background-position: 0 0;
 }
 
+.afgLink {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('images/Afghanistan-Flag-icon.png') bottom no-repeat;
+	text-indent: -99999px;
+}
+.afgLink:hover {
+	background-position: 0 0;
+}
 
+.yemenLink {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('images/Yemen-Flag-icon.png') bottom no-repeat;
+	text-indent: -99999px;
+}
+.yemenLink:hover {
+	background-position: 0 0;
+}
 
+.jordanLink {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('images/Jordan-Flag-icon.png') bottom no-repeat;
+	text-indent: -99999px;
+}
+.jordanLink:hover {
+	background-position: 0 0;
+}
+
+.turkeyLink {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('images/Turkey-Flag-icon.png') bottom no-repeat;
+	text-indent: -99999px;
+}
+.turkeyLink:hover {
+	background-position: 0 0;
+}
+
+.georgiaLink {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('images/Georgia-Flag-icon.png') bottom no-repeat;
+	text-indent: -99999px;
+}
+.georgiaLink:hover {
+	background-position: 0 0;
+}
+
+.maliLink {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('images/Mali-Flag-icon.png') bottom no-repeat;
+	text-indent: -99999px;
+}
+.maliLink:hover {
+	background-position: 0 0;
+}
+
+.colombiaLink {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('images/Colombia-Flag-icon.png') bottom no-repeat;
+	text-indent: -99999px;
+}
+.colombiaLink:hover {
+	background-position: 0 0;
+}
 
 .jqx-listmenu-filter-input {
 	 border-radius: 0px 0px 0px 0px;
@@ -920,3 +918,37 @@ p > a, #downloadLink {
 	font-family: "Gill Sans MT","Trebuchet MS","Verdana";	
 }
 
+
+
+.cluster{
+   color: #990000;
+   text-align:center;
+   font-family: 'Arial, Helvetica';
+   font-size:16px;
+   font-weight:bolder;
+}
+
+.cluster-1{
+   background-image:url(images/newsletter.png);
+   background-repeat:no-repeat;
+   background-position: center center;
+   line-height:45px;
+   width: 45px;
+   height: 44px;
+}
+.cluster-2{
+   background-image:url(images/newsletter.png);
+   background-repeat:no-repeat;
+   background-position: center center;
+   line-height:45px;
+   width: 45px;
+   height: 44px;
+}
+.cluster-3{
+   background-image:url(images/newsletter.png);
+   background-repeat:no-repeat;
+   background-position: center center;
+   line-height:45px;
+   width: 45px;
+   height: 44px;
+}
